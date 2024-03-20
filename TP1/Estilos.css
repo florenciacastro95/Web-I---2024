@@ -1,0 +1,40 @@
+div p{
+
+    color:red;
+}
+
+.par{
+
+    color:blue;
+}
+
+.tade{
+    color:blueviolet;
+    background-color: aquamarine;
+}
+
+.adu{
+    color:brown;
+    background-color: chartreuse;
+
+}
+
+h2{
+
+    color: cornflowerblue;
+}
+
+h2.master{
+    font-size: larger;
+
+}
+#flor::first-letter{
+
+    color: violet;
+}
+
+#flor:hover{
+
+    color: red;
+    cursor:grab;
+}
