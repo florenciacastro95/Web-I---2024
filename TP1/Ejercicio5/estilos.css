@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+  }
+
+header{
+	background-color: #972700;
+	height: 70px;
+	width: 100%;
+}
+div{
+	padding-right: 120px;
+	padding-left: 120px;
+    	margin-right: auto;
+    	margin-left: auto;
+
+}
+#opc{
+	margin-left:70px;
+	height: 70px;
+	width:210px;
+	background-color: wheat;
+}
+#tit{
+	font-family: "Arial";
+	font-size: 1.5vw;
+}
