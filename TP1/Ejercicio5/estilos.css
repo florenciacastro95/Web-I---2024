@@ -2,25 +2,43 @@ body{
     margin: 0;
   }
 
-header{
-	background-color: #972700;
-	height: 70px;
-	width: 100%;
+  header {
+    background-color: hsl(15, 100%, 30%);
+    height: 10vh; /* Usamos 10% del alto de la ventana */
+    width: 100vw;
+	background-attachment: fixed;
 }
-div{
-	padding-right: 120px;
-	padding-left: 120px;
-    	margin-right: auto;
-    	margin-left: auto;
 
+div {
+    padding-right: 5%; /* Margen derecho del 5% del ancho de la ventana */
+    padding-left: 5%; /* Margen izquierdo del 5% del ancho de la ventana */
+    margin-right: auto;
+    margin-left: auto;
 }
-#opc{
-	margin-left:70px;
-	height: 70px;
-	width:210px;
-	background-color: wheat;
+
+#opc {
+    margin-left: 5%; /* Margen izquierdo del 5% del ancho de la ventana */
+    height: 10vh; /* Usamos 10% del alto de la ventana */
+    width: 20vw; /* Usamos 20% del ancho de la ventana */
+    background-color: wheat;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	white-space: nowrap;
 }
-#tit{
-	font-family: "Arial";
-	font-size: 1.5vw;
+
+#tit {
+    font-family: "Arial";
+    font-size: 1.1em;
 }
+
+/* Estilos para pantallas pequeñas 
+@media screen and (max-width: 600px) {
+    header {
+        height: 15vh; /* Aumentamos la altura del header para pantallas pequeñas 
+    }
+
+    #opc {
+        height: 15vh; /* Aumentamos la altura de las opciones de búsqueda para pantallas pequeñas 
+    }
+}*/
